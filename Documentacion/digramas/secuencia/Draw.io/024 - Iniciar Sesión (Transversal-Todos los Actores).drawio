@@ -1,0 +1,334 @@
+<mxfile host="Electron">
+  <diagram name="DS-SEC-024" id="aY4xgCcD7ZcQt3HMJL-M">
+    <mxGraphModel dx="1269" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mm3HoA0Jg1f61VAl6at--1" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" value="&lt;b&gt;GoldenDrinks - Diagrama de secuencia DS-SEC-024 - Iniciar sesión&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="700" x="400" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--2" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" value="Caso de uso: Autenticación y control de acceso por roles | Actores: Todos los usuarios del sistema" vertex="1">
+          <mxGeometry height="15" width="500" x="500" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Usuario (Actor)" vertex="1">
+          <mxGeometry height="35" width="140" x="80" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Módulo de Autenticación" vertex="1">
+          <mxGeometry height="35" width="180" x="320" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Servicio de Seguridad" vertex="1">
+          <mxGeometry height="35" width="170" x="600" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Repositorio de Usuarios (BD)" vertex="1">
+          <mxGeometry height="35" width="220" x="900" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--7" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="150" y="105" as="sourcePoint" />
+            <mxPoint x="150" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--8" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="105" as="sourcePoint" />
+            <mxPoint x="410" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--9" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="685" y="105" as="sourcePoint" />
+            <mxPoint x="685" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--10" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1010" y="105" as="sourcePoint" />
+            <mxPoint x="1010" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="145" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="405" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="680" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="1005" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Abrir pantalla de inicio de sesión">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="155" y="160" as="sourcePoint" />
+            <mxPoint x="405" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Ingresar credenciales (correo y contraseña)">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="155" y="200" as="sourcePoint" />
+            <mxPoint x="405" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Validar formato de credenciales">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="415" y="240" as="sourcePoint" />
+            <mxPoint x="680" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Buscar usuario y verificar hash (bcrypt)">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="280" as="sourcePoint" />
+            <mxPoint x="1005" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Retornar usuario y rol asignado">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1005" y="310" as="sourcePoint" />
+            <mxPoint x="690" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Registrar sesión exitosa en auditoría">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="340" as="sourcePoint" />
+            <mxPoint x="1005" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Confirmar registro de auditoría">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1005" y="370" as="sourcePoint" />
+            <mxPoint x="690" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Redirigir al módulo según el rol">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="680" y="400" as="sourcePoint" />
+            <mxPoint x="415" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Mostrar panel principal">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="405" y="430" as="sourcePoint" />
+            <mxPoint x="155" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=#999999;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="240" width="1120" x="60" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--25" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="alt" vertex="1">
+          <mxGeometry height="20" width="30" x="70" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--26" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="[Campos vacíos o formato inválido]" vertex="1">
+          <mxGeometry height="20" width="250" x="80" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;" value="Reportar validación de campos">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="540" as="sourcePoint" />
+            <mxPoint x="415" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Mostrar error y resaltar campos">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="405" y="570" as="sourcePoint" />
+            <mxPoint x="155" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--29" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="[Credenciales incorrectas o cuenta desactivada]" vertex="1">
+          <mxGeometry height="20" width="320" x="80" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;" value="Registrar intento fallido en auditoría">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="640" as="sourcePoint" />
+            <mxPoint x="1005" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Negar acceso y mostrar mensaje genérico">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="680" y="670" as="sourcePoint" />
+            <mxPoint x="415" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;" value="Si los campos obligatorios están vacíos o el formato es inválido, el sistema bloquea el envío y resalta los campos para que el usuario corrija (RNF-01)." vertex="1">
+          <mxGeometry height="60" width="220" x="1200" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;" value="Si las credenciales no coinciden o la cuenta está desactivada, el sistema niega el acceso sin revelar cuál dato es incorrecto por seguridad (RNF-02) y registra el intento fallido en la auditoría." vertex="1">
+          <mxGeometry height="60" width="220" x="1200" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--34" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#D6B656;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1180" y="560" as="sourcePoint" />
+            <mxPoint x="1200" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--35" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#D6B656;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1180" y="660" as="sourcePoint" />
+            <mxPoint x="1200" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--36" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" value="&lt;b&gt;GoldenDrinks - Diagrama de secuencia DS-SEC-024 - Iniciar sesión&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="700" x="400" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--37" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" value="Caso de uso: Autenticación y control de acceso por roles | Actores: Todos los usuarios del sistema" vertex="1">
+          <mxGeometry height="15" width="500" x="500" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Usuario (Actor)" vertex="1">
+          <mxGeometry height="35" width="140" x="80" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Módulo de Autenticación" vertex="1">
+          <mxGeometry height="35" width="180" x="320" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Servicio de Seguridad" vertex="1">
+          <mxGeometry height="35" width="170" x="600" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Repositorio de Usuarios (BD)" vertex="1">
+          <mxGeometry height="35" width="220" x="900" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--42" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="150" y="105" as="sourcePoint" />
+            <mxPoint x="150" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--43" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="105" as="sourcePoint" />
+            <mxPoint x="410" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--44" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="685" y="105" as="sourcePoint" />
+            <mxPoint x="685" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--45" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1010" y="105" as="sourcePoint" />
+            <mxPoint x="1010" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="145" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="405" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="680" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="1005" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--50" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Abrir pantalla de inicio de sesión">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="155" y="160" as="sourcePoint" />
+            <mxPoint x="405" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--51" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Ingresar credenciales (correo y contraseña)">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="155" y="200" as="sourcePoint" />
+            <mxPoint x="405" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--52" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Validar formato de credenciales">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="415" y="240" as="sourcePoint" />
+            <mxPoint x="680" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--53" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Buscar usuario y verificar hash (bcrypt)">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="280" as="sourcePoint" />
+            <mxPoint x="1005" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--54" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Retornar usuario y rol asignado">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1005" y="310" as="sourcePoint" />
+            <mxPoint x="690" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--55" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Registrar sesión exitosa en auditoría">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="340" as="sourcePoint" />
+            <mxPoint x="1005" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--56" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Confirmar registro de auditoría">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1005" y="370" as="sourcePoint" />
+            <mxPoint x="690" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--57" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Redirigir al módulo según el rol">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="680" y="400" as="sourcePoint" />
+            <mxPoint x="415" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--58" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Mostrar panel principal">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="405" y="430" as="sourcePoint" />
+            <mxPoint x="155" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=#999999;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="240" width="1120" x="60" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--60" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="alt" vertex="1">
+          <mxGeometry height="20" width="30" x="70" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--61" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="[Campos vacíos o formato inválido]" vertex="1">
+          <mxGeometry height="20" width="250" x="80" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--62" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;" value="Reportar validación de campos">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="540" as="sourcePoint" />
+            <mxPoint x="415" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--63" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Mostrar error y resaltar campos">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="405" y="570" as="sourcePoint" />
+            <mxPoint x="155" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--64" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="[Credenciales incorrectas o cuenta desactivada]" vertex="1">
+          <mxGeometry height="20" width="320" x="80" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--65" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;" value="Registrar intento fallido en auditoría">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="640" as="sourcePoint" />
+            <mxPoint x="1005" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--66" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Negar acceso y mostrar mensaje genérico">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="680" y="670" as="sourcePoint" />
+            <mxPoint x="415" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;" value="Si los campos obligatorios están vacíos o el formato es inválido, el sistema bloquea el envío y resalta los campos para que el usuario corrija (RNF-01)." vertex="1">
+          <mxGeometry height="60" width="220" x="1200" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;" value="Si las credenciales no coinciden o la cuenta está desactivada, el sistema niega el acceso sin revelar cuál dato es incorrecto por seguridad (RNF-02) y registra el intento fallido en la auditoría." vertex="1">
+          <mxGeometry height="60" width="220" x="1200" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--69" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#D6B656;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1180" y="560" as="sourcePoint" />
+            <mxPoint x="1200" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mm3HoA0Jg1f61VAl6at--70" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#D6B656;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1180" y="660" as="sourcePoint" />
+            <mxPoint x="1200" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,178 @@
+<mxfile host="Electron">
+  <diagram name="DS-VEN-022" id="GH_Vew1Ds6473Qm2ZEyx">
+    <mxGraphModel dx="1269" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jd5JganHXG7_eak100Lg-1" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" value="&lt;b&gt;GoldenDrinks - Diagrama de secuencia DS-VEN-022 - Reportar novedad o reclamo&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="700" x="400" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-2" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" value="Caso de uso: Registrar reclamo sobre pedido | Actor principal: Vendedor Externo" vertex="1">
+          <mxGeometry height="15" width="500" x="500" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Vendedor Externo" vertex="1">
+          <mxGeometry height="35" width="140" x="80" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Portal Vendedor" vertex="1">
+          <mxGeometry height="35" width="160" x="320" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Servicio de Reclamos" vertex="1">
+          <mxGeometry height="35" width="170" x="600" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Repositorio de Reclamos (BD)" vertex="1">
+          <mxGeometry height="35" width="200" x="900" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-7" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="150" y="105" as="sourcePoint" />
+            <mxPoint x="150" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-8" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="105" as="sourcePoint" />
+            <mxPoint x="400" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-9" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="685" y="105" as="sourcePoint" />
+            <mxPoint x="685" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-10" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1000" y="105" as="sourcePoint" />
+            <mxPoint x="1000" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="145" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="395" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="680" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="995" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Abrir pedido despachado">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="155" y="160" as="sourcePoint" />
+            <mxPoint x="395" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Describir novedad y adjuntar evidencia">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="155" y="200" as="sourcePoint" />
+            <mxPoint x="395" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Confirmar reporte de reclamo">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="405" y="240" as="sourcePoint" />
+            <mxPoint x="680" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Validar que el pedido esté despachado">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="280" as="sourcePoint" />
+            <mxPoint x="995" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Retornar validación exitosa">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="995" y="310" as="sourcePoint" />
+            <mxPoint x="690" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Guardar reclamo y archivo adjunto">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="340" as="sourcePoint" />
+            <mxPoint x="995" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Notificar al administrador (RF-21)">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="370" as="sourcePoint" />
+            <mxPoint x="995" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Confirmar almacenamiento">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="995" y="400" as="sourcePoint" />
+            <mxPoint x="690" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Asignar estado &#39;Abierto&#39; y habilitar seguimiento">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="680" y="430" as="sourcePoint" />
+            <mxPoint x="405" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Confirmación en pantalla">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="395" y="460" as="sourcePoint" />
+            <mxPoint x="155" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=#999999;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="240" width="1120" x="60" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-26" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="alt" vertex="1">
+          <mxGeometry height="20" width="30" x="70" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-27" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="[Pedido no despachado]" vertex="1">
+          <mxGeometry height="20" width="200" x="80" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;" value="Reportar validación">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="570" as="sourcePoint" />
+            <mxPoint x="405" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Bloquear reclamo y mostrar mensaje">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="395" y="600" as="sourcePoint" />
+            <mxPoint x="155" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-30" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="[Campos obligatorios vacíos]" vertex="1">
+          <mxGeometry height="20" width="250" x="80" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;" value="Informar campos faltantes">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="670" as="sourcePoint" />
+            <mxPoint x="405" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Mostrar mensaje y resaltar campos">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="395" y="700" as="sourcePoint" />
+            <mxPoint x="155" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;" value="Si el pedido seleccionado no tiene estado &#39;Despachado&#39;, el sistema bloquea el reporte para evitar reclamos prematuros sobre pedidos en revisión o aprobación (RF-21)." vertex="1">
+          <mxGeometry height="60" width="220" x="1200" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;" value="Si faltan campos obligatorios como la descripción de la novedad, el sistema bloquea el envío y resalta los campos para que el vendedor complete la información." vertex="1">
+          <mxGeometry height="60" width="220" x="1200" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-35" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#D6B656;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1180" y="590" as="sourcePoint" />
+            <mxPoint x="1200" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jd5JganHXG7_eak100Lg-36" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#D6B656;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1180" y="690" as="sourcePoint" />
+            <mxPoint x="1200" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,184 @@
+<mxfile host="Electron">
+  <diagram name="DS-VEN-031" id="aCYAj1UE6lrCDyEBqurF">
+    <mxGraphModel dx="1269" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6XyAU2pwltjU4gImcRRI-1" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" value="&lt;b&gt;GoldenDrinks - Diagrama de secuencia DS-VEN-031 - Verificar comprobante de pago&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="700" x="400" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-2" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" value="Caso de uso: Verificar comprobante de pago del pedido | Actores: Vendedor Externo y Administrador" vertex="1">
+          <mxGeometry height="15" width="500" x="500" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Vendedor Externo" vertex="1">
+          <mxGeometry height="35" width="140" x="80" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Portal Vendedor y Admin" vertex="1">
+          <mxGeometry height="35" width="180" x="320" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Servicio de Pedidos" vertex="1">
+          <mxGeometry height="35" width="170" x="600" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Repositorio de Pedidos y Archivos (BD)" vertex="1">
+          <mxGeometry height="35" width="260" x="900" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-7" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="150" y="105" as="sourcePoint" />
+            <mxPoint x="150" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-8" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="105" as="sourcePoint" />
+            <mxPoint x="410" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-9" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="685" y="105" as="sourcePoint" />
+            <mxPoint x="685" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-10" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1030" y="105" as="sourcePoint" />
+            <mxPoint x="1030" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="145" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="405" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="680" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="1025" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Adjuntar comprobante de pago">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="155" y="160" as="sourcePoint" />
+            <mxPoint x="405" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Validar formato y tamaño de archivo">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="415" y="200" as="sourcePoint" />
+            <mxPoint x="680" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Guardar archivo y actualizar estado &#39;En revisión&#39;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="240" as="sourcePoint" />
+            <mxPoint x="1025" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Confirmar persistencia">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1025" y="270" as="sourcePoint" />
+            <mxPoint x="690" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Mostrar confirmación al vendedor">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="680" y="300" as="sourcePoint" />
+            <mxPoint x="415" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Abrir pedido y revisar comprobante (Admin)">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="155" y="340" as="sourcePoint" />
+            <mxPoint x="405" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Marcar pago como verificado">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="415" y="380" as="sourcePoint" />
+            <mxPoint x="680" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Actualizar pago_estado = &#39;verificado&#39;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="420" as="sourcePoint" />
+            <mxPoint x="1025" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Trigger: sella fecha de verificación">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1025" y="450" as="sourcePoint" />
+            <mxPoint x="1025" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Confirmar actualización">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1025" y="510" as="sourcePoint" />
+            <mxPoint x="690" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Habilitar aprobación del pedido">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="680" y="540" as="sourcePoint" />
+            <mxPoint x="415" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=#999999;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="240" width="1120" x="60" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-27" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="alt" vertex="1">
+          <mxGeometry height="20" width="30" x="70" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-28" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="[Archivo no válido o vacío]" vertex="1">
+          <mxGeometry height="20" width="200" x="80" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;" value="Reportar validación de archivo">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="650" as="sourcePoint" />
+            <mxPoint x="415" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Mostrar mensaje de error">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="405" y="680" as="sourcePoint" />
+            <mxPoint x="155" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-31" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="[Comprobante rechazado por Admin]" vertex="1">
+          <mxGeometry height="20" width="250" x="80" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;" value="Actualizar pago_estado = &#39;rechazado&#39;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="750" as="sourcePoint" />
+            <mxPoint x="1025" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Notificar rechazo al vendedor">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="680" y="780" as="sourcePoint" />
+            <mxPoint x="415" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;" value="Si el archivo no es válido (ej. formato incorrecto o vacío), el sistema bloquea la subida para evitar registros corruptos y solicita al vendedor reintentar (RNF-11)." vertex="1">
+          <mxGeometry height="60" width="220" x="1200" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;" value="Si el administrador rechaza el comprobante por inconsistencias, el sistema actualiza el estado del pago a &#39;rechazado&#39;, bloquea el despacho (RN-15) y notifica al vendedor con el motivo." vertex="1">
+          <mxGeometry height="60" width="220" x="1200" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-36" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#D6B656;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1180" y="670" as="sourcePoint" />
+            <mxPoint x="1200" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XyAU2pwltjU4gImcRRI-37" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#D6B656;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1180" y="770" as="sourcePoint" />
+            <mxPoint x="1200" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

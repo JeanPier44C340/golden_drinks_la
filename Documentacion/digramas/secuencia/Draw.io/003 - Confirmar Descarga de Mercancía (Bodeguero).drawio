@@ -1,0 +1,178 @@
+<mxfile host="Electron">
+  <diagram name="DS-BOD-003" id="mU-f4lz9x4IZhMyETc2O">
+    <mxGraphModel dx="1269" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-1" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" value="&lt;b&gt;GoldenDrinks - Diagrama de secuencia DS-BOD-003 - Confirmar descarga de mercancía&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="700" x="400" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-2" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" value="Caso de uso: Confirmar descarga de mercancía | Actor principal: Bodeguero" vertex="1">
+          <mxGeometry height="15" width="500" x="500" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Bodeguero" vertex="1">
+          <mxGeometry height="35" width="120" x="80" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Módulo de Bodega" vertex="1">
+          <mxGeometry height="35" width="160" x="320" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Servicio de Descargas" vertex="1">
+          <mxGeometry height="35" width="170" x="600" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Repositorio de Descargas (BD)" vertex="1">
+          <mxGeometry height="35" width="200" x="900" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-7" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="105" as="sourcePoint" />
+            <mxPoint x="140" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-8" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="105" as="sourcePoint" />
+            <mxPoint x="400" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-9" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="685" y="105" as="sourcePoint" />
+            <mxPoint x="685" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-10" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1000" y="105" as="sourcePoint" />
+            <mxPoint x="1000" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="135" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="395" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="680" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="995" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Abrir recepción pendiente">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="145" y="160" as="sourcePoint" />
+            <mxPoint x="395" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Registrar cantidades recibidas y dañadas por producto">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="145" y="200" as="sourcePoint" />
+            <mxPoint x="395" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Confirmar descarga">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="405" y="240" as="sourcePoint" />
+            <mxPoint x="680" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Validar cantidades y reglas de negocio">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="280" as="sourcePoint" />
+            <mxPoint x="995" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Retornar validación exitosa">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="995" y="310" as="sourcePoint" />
+            <mxPoint x="690" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Guardar descarga y detalle por producto">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="340" as="sourcePoint" />
+            <mxPoint x="995" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Trigger: actualizar inventario y registrar pérdidas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="995" y="370" as="sourcePoint" />
+            <mxPoint x="995" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Confirmar actualización">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="995" y="430" as="sourcePoint" />
+            <mxPoint x="690" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Asignar estado &#39;Descargada&#39; y cerrar recepción">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="680" y="460" as="sourcePoint" />
+            <mxPoint x="405" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Confirmación en pantalla">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="395" y="490" as="sourcePoint" />
+            <mxPoint x="145" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=#999999;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="180" width="1120" x="60" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-26" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="alt" vertex="1">
+          <mxGeometry height="20" width="30" x="70" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-27" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="[Todas las cantidades en cero]" vertex="1">
+          <mxGeometry height="20" width="250" x="80" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;" value="Reportar validación">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="600" as="sourcePoint" />
+            <mxPoint x="405" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Mostrar mensaje y corregir">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="395" y="630" as="sourcePoint" />
+            <mxPoint x="145" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-30" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="[Cantidad dañada supera la recibida]" vertex="1">
+          <mxGeometry height="20" width="280" x="80" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;" value="Informar inconsistencia">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="690" as="sourcePoint" />
+            <mxPoint x="405" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Señalar producto inconsistente">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="395" y="720" as="sourcePoint" />
+            <mxPoint x="145" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;" value="Si todas las cantidades registradas son cero, el sistema bloquea la confirmación para evitar descargas vacías y mantiene la integridad del inventario (RN-05)." vertex="1">
+          <mxGeometry height="60" width="220" x="1200" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;" value="Si la cantidad dañada supera la recibida, el sistema identifica el producto inconsistente y bloquea el registro hasta corregir el error (RN-04)." vertex="1">
+          <mxGeometry height="60" width="220" x="1200" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-35" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#D6B656;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1180" y="620" as="sourcePoint" />
+            <mxPoint x="1200" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="psCuPzuxdR-rtJG37gZ2-36" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#D6B656;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1180" y="710" as="sourcePoint" />
+            <mxPoint x="1200" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

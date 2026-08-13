@@ -1,0 +1,178 @@
+<mxfile host="Electron">
+  <diagram name="DS-REC-001" id="UQMGFl8Z1z-zwBNf944W">
+    <mxGraphModel dx="1269" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x09IW4WKSkz0fD1PsX13-1" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" value="&lt;b&gt;GoldenDrinks - Diagrama de secuencia DS-REC-001 - Registrar llegada de vehículo&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="700" x="200" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-2" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" value="Caso de uso: Registrar llegada de vehículo | Actor principal: Celador" vertex="1">
+          <mxGeometry height="15" width="500" x="300" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Celador" vertex="1">
+          <mxGeometry height="35" width="120" x="60" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Módulo de Recepciones" vertex="1">
+          <mxGeometry height="35" width="160" x="300" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Servicio de Recepciones" vertex="1">
+          <mxGeometry height="35" width="170" x="560" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Repositorio de Recepciones (BD)" vertex="1">
+          <mxGeometry height="35" width="200" x="830" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-7" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="105" as="sourcePoint" />
+            <mxPoint x="120" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-8" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="105" as="sourcePoint" />
+            <mxPoint x="380" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-9" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="645" y="105" as="sourcePoint" />
+            <mxPoint x="645" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-10" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="930" y="105" as="sourcePoint" />
+            <mxPoint x="930" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="115" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="375" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="640" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="925" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Abrir módulo">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="125" y="160" as="sourcePoint" />
+            <mxPoint x="375" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Ingresar información (placa, conductor, flete, observaciones)">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="385" y="200" as="sourcePoint" />
+            <mxPoint x="640" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Confirmar operación">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="650" y="240" as="sourcePoint" />
+            <mxPoint x="925" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Crear recepción y vehículo">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="925" y="270" as="sourcePoint" />
+            <mxPoint x="650" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Asignar hora_llegada y estado Pendiente">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="640" y="300" as="sourcePoint" />
+            <mxPoint x="385" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Confirmación en pantalla">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="375" y="330" as="sourcePoint" />
+            <mxPoint x="125" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=#999999;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="340" width="1020" x="40" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-22" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="alt" vertex="1">
+          <mxGeometry height="20" width="30" x="50" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-23" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="[Campos incompletos]" vertex="1">
+          <mxGeometry height="20" width="180" x="60" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;" value="Reportar validación">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="650" y="430" as="sourcePoint" />
+            <mxPoint x="385" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Mostrar mensaje y corregir">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="375" y="460" as="sourcePoint" />
+            <mxPoint x="125" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-26" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="[Vehículo con recepción abierta]" vertex="1">
+          <mxGeometry height="20" width="250" x="60" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;" value="Informar duplicidad">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="650" y="530" as="sourcePoint" />
+            <mxPoint x="385" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Solicitar confirmación o cancelar">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="375" y="560" as="sourcePoint" />
+            <mxPoint x="125" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-29" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="[Error técnico]" vertex="1">
+          <mxGeometry height="20" width="150" x="60" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;" value="Informar fallo / reintento">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="650" y="630" as="sourcePoint" />
+            <mxPoint x="385" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Mostrar error al celador">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="375" y="660" as="sourcePoint" />
+            <mxPoint x="125" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;" value="Si se presenta una condición no permitida o una validación de negocio, el sistema valida campos obligatorios y evita el registro." vertex="1">
+          <mxGeometry height="60" width="200" x="1070" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;" value="Si la información obligatoria del RF-01 está incompleta o no cumple las reglas del módulo Recepciones, el sistema informa al celador." vertex="1">
+          <mxGeometry height="60" width="200" x="1070" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;" value="Si ocurre un error de procesamiento o persistencia, el sistema informa que la operación no pudo completarse, conserva la trazabilidad." vertex="1">
+          <mxGeometry height="60" width="200" x="1070" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-35" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#D6B656;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1060" y="450" as="sourcePoint" />
+            <mxPoint x="1070" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-36" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#D6B656;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1060" y="550" as="sourcePoint" />
+            <mxPoint x="1070" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x09IW4WKSkz0fD1PsX13-37" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#D6B656;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1060" y="650" as="sourcePoint" />
+            <mxPoint x="1070" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

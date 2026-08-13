@@ -1,0 +1,184 @@
+<mxfile host="Electron">
+  <diagram name="DS-VEN-020" id="FE6fr1MjQ8L3-3dVHRnl">
+    <mxGraphModel dx="1269" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-1" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" value="&lt;b&gt;GoldenDrinks - Diagrama de secuencia DS-VEN-020 - Realizar pedido a GoldenDrinks&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="700" x="400" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-2" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" value="Caso de uso: Registrar pedido formal | Actor principal: Vendedor Externo" vertex="1">
+          <mxGeometry height="15" width="500" x="500" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Vendedor Externo" vertex="1">
+          <mxGeometry height="35" width="140" x="80" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Portal Vendedor" vertex="1">
+          <mxGeometry height="35" width="160" x="320" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Servicio de Pedidos" vertex="1">
+          <mxGeometry height="35" width="170" x="600" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4472C4;fontColor=#FFFFFF;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" value="Repositorio de Pedidos e Inventario (BD)" vertex="1">
+          <mxGeometry height="35" width="260" x="900" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-7" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="150" y="105" as="sourcePoint" />
+            <mxPoint x="150" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-8" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="105" as="sourcePoint" />
+            <mxPoint x="400" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-9" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="685" y="105" as="sourcePoint" />
+            <mxPoint x="685" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-10" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1030" y="105" as="sourcePoint" />
+            <mxPoint x="1030" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="145" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="395" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="680" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4B183;strokeColor=#F4B183;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="1025" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Abrir módulo Catálogo">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="155" y="160" as="sourcePoint" />
+            <mxPoint x="395" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Seleccionar productos y cantidades">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="155" y="200" as="sourcePoint" />
+            <mxPoint x="395" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Adjuntar comprobante de pago">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="155" y="240" as="sourcePoint" />
+            <mxPoint x="395" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Confirmar pedido">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="405" y="280" as="sourcePoint" />
+            <mxPoint x="680" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Validar stock disponible y campos obligatorios">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="320" as="sourcePoint" />
+            <mxPoint x="1025" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Retornar validación exitosa">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1025" y="350" as="sourcePoint" />
+            <mxPoint x="690" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Guardar pedido y detalle de productos">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="380" as="sourcePoint" />
+            <mxPoint x="1025" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;fontSize=11;" value="Guardar comprobante de pago">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="410" as="sourcePoint" />
+            <mxPoint x="1025" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Confirmar almacenamiento">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1025" y="440" as="sourcePoint" />
+            <mxPoint x="690" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Asignar estado &#39;En revisión&#39; y notificar admin">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="680" y="470" as="sourcePoint" />
+            <mxPoint x="405" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Confirmación en pantalla">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="395" y="500" as="sourcePoint" />
+            <mxPoint x="155" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=#999999;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="240" width="1120" x="60" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-27" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="alt" vertex="1">
+          <mxGeometry height="20" width="30" x="70" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-28" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="[Producto agotado o sin stock suficiente]" vertex="1">
+          <mxGeometry height="20" width="280" x="80" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;" value="Reportar validación de stock">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="610" as="sourcePoint" />
+            <mxPoint x="405" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Bloquear producto y mostrar mensaje">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="395" y="640" as="sourcePoint" />
+            <mxPoint x="155" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-31" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="[Campos incompletos o sin comprobante]" vertex="1">
+          <mxGeometry height="20" width="280" x="80" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;" value="Informar campos faltantes">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="690" y="710" as="sourcePoint" />
+            <mxPoint x="405" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;fontSize=11;" value="Mostrar mensaje y resaltar campos">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="395" y="740" as="sourcePoint" />
+            <mxPoint x="155" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;" value="Si un producto está agotado o no tiene stock suficiente, el sistema bloquea su inclusión en el pedido para evitar compromisos comerciales que no puedan cumplirse (RF-19)." vertex="1">
+          <mxGeometry height="60" width="220" x="1200" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;" value="Si faltan campos obligatorios o no se adjunta el comprobante de pago, el sistema bloquea el envío del pedido hasta completar la información requerida (RF-24)." vertex="1">
+          <mxGeometry height="60" width="220" x="1200" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-36" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#D6B656;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1180" y="630" as="sourcePoint" />
+            <mxPoint x="1200" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxSPMaySI9UxjZSUgOjS-37" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#D6B656;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1180" y="730" as="sourcePoint" />
+            <mxPoint x="1200" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
