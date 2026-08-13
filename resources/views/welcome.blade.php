@@ -508,6 +508,7 @@
                         <a class="chrome__link" href="{{ url('/dashboard') }}">Panel</a>
                     @else
                         <a class="chrome__link" href="{{ route('login') }}">Entrar</a>
+                        <a class="chrome__link" href="{{ route('proveedor.login') }}">Portal proveedor</a>
                         <a class="chrome__cta" href="{{ route('register') }}">Registrarse</a>
                     @endauth
                 </div>

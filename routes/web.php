@@ -18,6 +18,11 @@ use App\Http\Controllers\Celador\DashboardController as CeladorDashboardControll
 use App\Http\Controllers\Celador\HistorialController as CeladorHistorialController;
 use App\Http\Controllers\Celador\LlegadaController as CeladorLlegadaController;
 use App\Http\Controllers\Celador\RecepcionController as CeladorRecepcionController;
+use App\Http\Controllers\Proveedor\AuthController as ProveedorAuthController;
+use App\Http\Controllers\Proveedor\EntregaController as ProveedorEntregaController;
+use App\Http\Controllers\Proveedor\FacturacionController as ProveedorFacturacionController;
+use App\Http\Controllers\Proveedor\NotificacionController as ProveedorNotificacionController;
+use App\Http\Controllers\Proveedor\OrdenController as ProveedorOrdenController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Repartidor\DashboardController as RepartidorDashboardController;
 use App\Http\Controllers\Repartidor\DespachoController as RepartidorDespachoController;
@@ -25,6 +30,7 @@ use App\Http\Controllers\Repartidor\InventarioController as RepartidorInventario
 use App\Http\Middleware\EnsureAdministrador;
 use App\Http\Middleware\EnsureBodeguero;
 use App\Http\Middleware\EnsureCelador;
+use App\Http\Middleware\EnsureProveedor;
 use App\Http\Middleware\EnsureRepartidor;
 use Illuminate\Support\Facades\Route;
 
@@ -144,5 +150,29 @@ Route::middleware(['auth', EnsureRepartidor::class])
         Route::get('/despachos/{despacho}/entregar', [RepartidorDespachoController::class, 'entregarForm'])->name('despachos.entregar');
         Route::post('/despachos/{despacho}/entregar', [RepartidorDespachoController::class, 'entregarStore'])->name('despachos.entregar.store');
     });
+
+Route::prefix('proveedor')->name('proveedor.')->group(function () {
+    Route::get('/login', [ProveedorAuthController::class, 'create'])->name('login');
+    Route::post('/login', [ProveedorAuthController::class, 'store'])->name('login.store');
+
+    Route::middleware(['auth:proveedor', EnsureProveedor::class])->group(function () {
+        Route::post('/logout', [ProveedorAuthController::class, 'destroy'])->name('logout');
+
+        Route::get('/', fn () => redirect()->route('proveedor.entregas.index'))->name('home');
+
+        Route::get('/entregas', [ProveedorEntregaController::class, 'index'])->name('entregas.index');
+        Route::get('/entregas/{entrega}', [ProveedorEntregaController::class, 'show'])->name('entregas.show');
+
+        Route::get('/ordenes/crear', [ProveedorOrdenController::class, 'create'])->name('ordenes.create');
+        Route::post('/ordenes', [ProveedorOrdenController::class, 'store'])->name('ordenes.store');
+
+        Route::get('/notificaciones', [ProveedorNotificacionController::class, 'index'])->name('notificaciones.index');
+        Route::post('/notificaciones/{notificacion}/leer', [ProveedorNotificacionController::class, 'marcarLeida'])->name('notificaciones.leer');
+
+        Route::get('/facturacion', [ProveedorFacturacionController::class, 'index'])->name('facturacion.index');
+        Route::post('/facturacion', [ProveedorFacturacionController::class, 'store'])->name('facturacion.store');
+        Route::get('/facturacion/{reporte}', [ProveedorFacturacionController::class, 'download'])->name('facturacion.download');
+    });
+});
 
 require __DIR__.'/auth.php';

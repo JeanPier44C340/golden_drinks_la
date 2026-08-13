@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 
 class GoldenSysSeeder extends Seeder
 {
@@ -27,8 +28,8 @@ class GoldenSysSeeder extends Seeder
         ]);
 
         DB::table('proveedores')->insert([
-            ['id' => 1, 'nit' => '900111222-1', 'nombre' => 'Licores del Valle S.A.', 'correo' => 'contacto@licoresdelvalle.co', 'password_hash' => '$2y$10$demo.hash.prov1', 'telefono' => '3101111111', 'direccion' => 'Cali, Valle', 'estado' => 'activo'],
-            ['id' => 2, 'nit' => '901333444-2', 'nombre' => 'Distribuidora Andina Ltda.', 'correo' => 'ventas@andina.co', 'password_hash' => '$2y$10$demo.hash.prov2', 'telefono' => '3102222222', 'direccion' => 'Bogota, Cund.', 'estado' => 'activo'],
+            ['id' => 1, 'nit' => '900111222-1', 'nombre' => 'Licores del Valle S.A.', 'correo' => 'contacto@licoresdelvalle.co', 'password_hash' => Hash::make('password'), 'telefono' => '3101111111', 'direccion' => 'Cali, Valle', 'estado' => 'activo'],
+            ['id' => 2, 'nit' => '901333444-2', 'nombre' => 'Distribuidora Andina Ltda.', 'correo' => 'ventas@andina.co', 'password_hash' => Hash::make('password'), 'telefono' => '3102222222', 'direccion' => 'Bogota, Cund.', 'estado' => 'activo'],
         ]);
 
         DB::table('vendedores')->insert([
