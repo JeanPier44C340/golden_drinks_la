@@ -19,9 +19,13 @@ use App\Http\Controllers\Celador\HistorialController as CeladorHistorialControll
 use App\Http\Controllers\Celador\LlegadaController as CeladorLlegadaController;
 use App\Http\Controllers\Celador\RecepcionController as CeladorRecepcionController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\Repartidor\DashboardController as RepartidorDashboardController;
+use App\Http\Controllers\Repartidor\DespachoController as RepartidorDespachoController;
+use App\Http\Controllers\Repartidor\InventarioController as RepartidorInventarioController;
 use App\Http\Middleware\EnsureAdministrador;
 use App\Http\Middleware\EnsureBodeguero;
 use App\Http\Middleware\EnsureCelador;
+use App\Http\Middleware\EnsureRepartidor;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -38,6 +42,9 @@ Route::get('/dashboard', function () {
     }
     if ($user?->rol?->nombre === 'bodeguero') {
         return redirect()->route('bodeguero.dashboard');
+    }
+    if ($user?->rol?->nombre === 'repartidor') {
+        return redirect()->route('repartidor.dashboard');
     }
 
     return view('dashboard');
@@ -121,6 +128,21 @@ Route::middleware(['auth', EnsureBodeguero::class])
         Route::get('/perdidas', [BodegueroPerdidaController::class, 'index'])->name('perdidas.index');
         Route::get('/perdidas/crear', [BodegueroPerdidaController::class, 'create'])->name('perdidas.create');
         Route::post('/perdidas', [BodegueroPerdidaController::class, 'store'])->name('perdidas.store');
+    });
+
+Route::middleware(['auth', EnsureRepartidor::class])
+    ->prefix('repartidor')
+    ->name('repartidor.')
+    ->group(function () {
+        Route::get('/', RepartidorDashboardController::class)->name('dashboard');
+
+        Route::get('/inventario', [RepartidorInventarioController::class, 'index'])->name('inventario.index');
+
+        Route::get('/despachos', [RepartidorDespachoController::class, 'index'])->name('despachos.index');
+        Route::get('/despachos/{despacho}', [RepartidorDespachoController::class, 'show'])->name('despachos.show');
+        Route::post('/despachos/{despacho}/en-camino', [RepartidorDespachoController::class, 'marcarEnCamino'])->name('despachos.en-camino');
+        Route::get('/despachos/{despacho}/entregar', [RepartidorDespachoController::class, 'entregarForm'])->name('despachos.entregar');
+        Route::post('/despachos/{despacho}/entregar', [RepartidorDespachoController::class, 'entregarStore'])->name('despachos.entregar.store');
     });
 
 require __DIR__.'/auth.php';
